@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+/*
+    id = # (apenas um elemento)
+    class = . (varios)
+*/
+
+div {
+    display: inline-block;
+    background-color: grey;
+    text-align: center;
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+}
+
+div:hover {
+    background-color: yellow;
+}
+
+div::selection {
+    background-color: red;
+}
+

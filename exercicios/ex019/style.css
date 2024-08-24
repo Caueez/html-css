@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/*
+    id = # (apenas um elemento)
+    class = . (varios)
+*/
+
+body {
+    background-color: #DEC3A2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#principal {
+    color: white;
+    text-align: center;
+    background-color: #E02F00;
+    margin: 10px;
+}
+
+.destaque {
+    font-weight: bold;
+    background-color: yellow;
+    padding: 0px 5px;
+}
+
+.subtitulo {
+    color: #643727;
+}
+
+.iniciante {
+    color: coral;
+}
+
+.avancado {
+    color: #E02F00;
+}
+
+.intermediario {
+    color: tomato;
+}
+
+h2 {
+    color: rgb(42, 83, 0);
+}

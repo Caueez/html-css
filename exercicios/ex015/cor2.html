@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#####</title>
+    <style>
+        a {
+            color: black;
+        }
+
+        body {
+            background-color: cadetblue;
+        }
+
+        h2 {
+            background-color: aqua;
+            border-radius: 50px;
+            text-align: center;
+            padding: 10px;
+            text-shadow: rgb(0, 0, 0, 0.3) 5px 5px 5px;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+    </style>
+    <script>
+        function video() {
+
+            const iframe = document.createElement('iframe');
+
+            iframe.width = '560';
+            iframe.height = '315';
+            iframe.src = 'https://www.youtube.com/embed/giaLzRO1-tY?si=DTebWRd4gEx6o-gm';
+            iframe.frameborder = '0';
+            iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+            iframe.allowFullscreen = true;
+
+            document.getElementById('video').appendChild(iframe)
+        }
+    </script>
+</head>
+<body>
+    <h1>Clique e descubra o universo paralelo</h1>
+    <h2><button onclick="video()">Clicar</button></h2>
+    <div id="video"></div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quidem eum dolor obcaecati deleniti adipisci. <a href="cor3.html">Corrupti</a>, ut ullam. Numquam enim ea a placeat quod, hic exercitationem officiis pariatur veniam optio.</p>
+    <p><a href="cor.html">Voltar</a></p>
+</body>
+</html>
