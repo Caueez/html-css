@@ -38,7 +38,7 @@ header > p {
 
 section {
     padding: 10vh;
-    font-size: 3vw;
+    font-size: 3.5vw;
     font-family: "Roboto Slab", cursive;
     line-height: 2em;
 }
@@ -46,6 +46,7 @@ section {
 section.normal {
     background-color: white;
     color: black;
+    padding: 40px;
 }
 
 section.normal > p {
@@ -54,7 +55,7 @@ section.normal > p {
 }
 
 section.imagem {
-    background-position: left center;
+    background-position: center left;
     background-attachment: fixed;
     background-size: cover;
     background-color: black;
@@ -63,11 +64,12 @@ section.imagem {
 }
 
 section.imagem.first {
-    background-image: url('../imagens/CEN_2005.jpg');
+    background-image: url('../imagens/img1.jpg');
 }
 
 section.imagem.second {
-    background-image: url('../imagens/CEN_2017.jpg');
+    background-image: url('../imagens/img2.jpg'); 
+    background-position: center center;  
 }
 
 section.imagem > p {
