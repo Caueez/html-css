@@ -48,7 +48,13 @@ section.normal {
     color: black;
 }
 
+section.normal > p {
+    display: inline-block;
+    padding: 10px 30px;
+}
+
 section.imagem {
+    background-position: left center;
     background-attachment: fixed;
     background-size: cover;
     background-color: black;
@@ -65,9 +71,10 @@ section.imagem.second {
 }
 
 section.imagem > p {
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.247);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    padding: 10px;
+    padding: 10px 30px;
     border-radius: 10px;
 }
 
