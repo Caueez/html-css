@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallpaper</title>
+    <style>
+
+        body {
+            background-image: url('imagens/wallpaper001.jpg');
+        }
+
+        section.quadrado {
+            display: inline-block;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: white;
+            width: 300px;
+            height: 300px;
+        }
+
+        section#q1 {
+            background-color: aqua;
+        }
+
+        section#q2 {
+            background-image: linear-gradient(to bottom, red, yellow);
+        }
+
+        section#q3 {
+            background-image: url("imagens/pattern001.png");
+             
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section class="quadrado" id="q1"></section>
+        <section class="quadrado" id="q2"></section>
+        <section class="quadrado" id="q3"></section>
+    </main>
+</body>
+</html>
