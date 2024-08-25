@@ -63,11 +63,11 @@ section.imagem {
     box-shadow: inset 0px 0px 100px rgba(0, 0, 0, 0.425);
 }
 
-section.imagem.first {
+section#img1 {
     background-image: url('../imagens/img1.jpg');
 }
 
-section.imagem.second {
+section#img2 {
     background-image: url('../imagens/img2.jpg'); 
     background-position: center center;  
 }
@@ -78,11 +78,22 @@ section.imagem > p {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     padding: 10px 30px;
     border-radius: 10px;
+    text-shadow: 1px 1px 5px black;
 }
 
 footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer > p > a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
